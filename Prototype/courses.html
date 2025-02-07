@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zari's 20th Birthday!</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="../styleSheets/CoursesStyleSheet/styleguide.css" />
+    <link rel="stylesheet" href="../styleSheets/CoursesStyleSheet/style.css" />
+
+    <style>
+        /* Dropdown container styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            right: 0;
+            padding: 10px;
+        }
+
+        .dropdown:hover .dropdown-content,
+        .dropdown:focus-within .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: green;
+            padding: 8px 12px;
+            text-decoration: none;
+            display: block;
+            font-size: 2em;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header class starts here -->
+    <header class="header">
+        <section class="flex">
+            <div class="menu-toggle" id="menuToggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="nav">
+                <a href="#" class="active">ZarisBigHead.org</a>
+            </nav>
+        </section>
+    </header>
+    
+    <!-- header class ends here -->
+
+    <div class="courses-hifi"> <!-- Birthday page starts here-->
+
+        <!-- top bar starts here -->
+        <div class="top-bar">
+            <a href="#">
+                <div class="course-main">
+                    <a href="../birthday.html">
+                        <div class="course-title">🎉 Happy 20th Birthday, Zari! 🎉</div>
+                    </a>
+                </div>
+            </a>
+        </div>
+        <!-- top bar ends here -->
+
+        <!-- Birthday Activities section starts here -->
+        <div class="quiz-bar">
+            <div class="quiz-title">Play this when you're sad</div>
+
+            <div class="quiz-1">
+                <a href=https://open.spotify.com/playlist/4Kqcsh7SuTddDDawbg1yXX?si=f39dea1ed18f4d10>
+                    <img class="quiz-icons" src="../Images/img/oly.jpg" />
+                    <div class="div-wrapper">
+                        <div class="database-text">ZARI</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- quizzes section ends here -->
+
+        <!-- Birthday Fun Facts section starts here -->
+        <div class="tutorial-bar">
+            <div class="tutorial-title">Listen to these whenever youre bored</div>
+
+            <div class="div-2">
+                <a href="../Quizzes/vns.html">
+                    <img class="tutorial-icons" src="../Images/img/ari.jpg" />
+                    <div class="div-wrapper">
+                        <div class="mobile-text">ZAR ZAR</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="extra"></div> <!-- extra space at the end of the last div -->
+        </div>
+        <!-- Birthday Fun Facts section ends here -->
+
+        <!-- Birthday Wishes section starts here -->
+        <div class="lecture-bar">
+            <div class="lecture-title"><h6>Watch this when you wanto laugh</h6></div>
+
+            <div class="div-2">
+                <a href="send_wishes.html"><img class="lecture-icons" src="../Images/img/one.jpg" /></a>
+                <div class="div-wrapper">
+                    <div class="hci-text">ZARIFA</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Birthday Wishes section ends here -->
+
+        <!-- footer starts here -->
+        <footer class="footer">
+            <div class="overlap">
+                <p class="p">©2024 HappyBirthdayZari. All rights reserved</p>
+
+                <div class="terms-conditions">Terms & Conditions</div>
+                <div class="privacy-policy">Privacy Policy</div>
+                <div class="contact-us">Contact Us</div>
+
+                <div class="facebook">
+                    <a href="#"><img class="logo" src="../Images/img/facebook.png" /></a>
+                </div>
+
+                <div class="twitter">
+                    <a href="#"><img class="logo" src="../Images/img/twitter.png" /></a>
+                </div>
+
+                <div class="instagram">
+                    <a href="#"><img class="logo" src="../Images/img/instagram.png" /></a>
+                </div>
+            </div>
+        </footer>
+        <!-- footer ends here -->
+
+    </div> <!-- birthday page ends here -->
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const nav = document.querySelector('.header .flex .nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
